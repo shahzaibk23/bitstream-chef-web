@@ -29,10 +29,10 @@ export const HeadMenu = () => {
         <div className="col-6 col-sm-3">
           <div className="token-icon mr-3">
             <Link to="/dashboard/pricing">
-          <p className="inline">01 Tkn <i class="fa fa-coins"></i></p>
+          <p className="inline">01 Tkn <i className="fa fa-coins"></i></p>
           </Link>
           </div>
-        <img src="../img/cross.png" alt="logo" className="cross" onClick={handleLogout}/>
+        <i className="fa fa-sign-out cross" aria-hidden="true" onClick={handleLogout}></i>
         </div>
       </div>
     </>
